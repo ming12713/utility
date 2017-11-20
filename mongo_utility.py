@@ -7,10 +7,10 @@ import sys
 import datetime
 reload(sys)
 sys.setdefaultencoding('utf-8')
-CONN_ADDR1 = "10.151.2.2:27017"
-CONN_ADDR2 = "112.124.2.139:27018"
+CONN_ADDR1 = "x.x.x.x:27017"
+CONN_ADDR2 = "x.x.x.x:27018"
 username = 'root'
-password = 'Fosun@1234'
+password = 'xxxxx
 admin = 'admin'
 dumpdir = '/tmp/mongo'
 nowdate = datetime.datetime.now() - datetime.timedelta(days=1)
